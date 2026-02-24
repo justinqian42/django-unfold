@@ -9,21 +9,21 @@
         {% endif %}
 
         {% if cl.is_facets_optional or cl.has_active_filters %}
-            <span id="changelist-filter-extra-actions" class="flex flex-row gap-2 items-center">
+            <span id="changelist-filter-extra-actions" class="flex flex-row flex-wrap gap-2 items-center">
                 {% if cl.is_facets_optional %}
                     {% if cl.add_facets %}
-                        {% component "unfold/components/button.html" with href=cl.remove_facet_link class="hidelink w-full" variant="default" %}
+                        {% component "unfold/components/button.html" with href=cl.remove_facet_link class="hidelink grow" variant="default" %}
                             {% trans "Hide counts" %}
                         {% endcomponent %}
                     {% else %}
-                        {% component "unfold/components/button.html" with href=cl.add_facet_link class="viewlink w-full" variant="default" %}
+                        {% component "unfold/components/button.html" with href=cl.add_facet_link class="viewlink grow" variant="default" %}
                             {% trans "Show counts" %}
                         {% endcomponent %}
                     {% endif %}
                 {% endif %}
 
                 {% if cl.has_active_filters %}
-                    {% component "unfold/components/button.html" with href=cl.clear_all_filters_qs class="clearall w-full" variant="default" %}
+                    {% component "unfold/components/button.html" with href=cl.clear_all_filters_qs class="clearall grow" variant="default" %}
                         {% trans "Clear all filters" %}
                     {% endcomponent %}
                 {% endif %}
