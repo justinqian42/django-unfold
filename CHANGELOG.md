@@ -1,6 +1,48 @@
 # CHANGELOG
 
 
+## v0.81.0 (2026-02-25)
+
+### Bug Fixes
+
+- Array widget attrs ([#1879](https://github.com/unfoldadmin/django-unfold/pull/1879),
+  [`84c61d1`](https://github.com/unfoldadmin/django-unfold/commit/84c61d144f0cdbaacc94e7332d8f418022cb8c65))
+
+- Filters spacing ([#1886](https://github.com/unfoldadmin/django-unfold/pull/1886),
+  [`d5e8a6e`](https://github.com/unfoldadmin/django-unfold/commit/d5e8a6e112217faee6b0a1be0183aad256edc362))
+
+- Json editor dark mode scrollbar ([#1889](https://github.com/unfoldadmin/django-unfold/pull/1889),
+  [`0525dbf`](https://github.com/unfoldadmin/django-unfold/commit/0525dbf22fbb24485979212566bd7b696059f971))
+
+- Modal overlay for calendar ([#1890](https://github.com/unfoldadmin/django-unfold/pull/1890),
+  [`a4d6dc8`](https://github.com/unfoldadmin/django-unfold/commit/a4d6dc8ca47dad55b83b18a50bee1fd3aa89fabf))
+
+- Password forms layout ([#1891](https://github.com/unfoldadmin/django-unfold/pull/1891),
+  [`a649653`](https://github.com/unfoldadmin/django-unfold/commit/a6496531cdd069caadc1d459d9e2904d9018a184))
+
+- Redesigned checkbox/radio ([#1887](https://github.com/unfoldadmin/django-unfold/pull/1887),
+  [`4570f86`](https://github.com/unfoldadmin/django-unfold/commit/4570f8650b39180f6a1b8c4fc9a340b9dbc4f339))
+
+- Safari legend rendering ([#1882](https://github.com/unfoldadmin/django-unfold/pull/1882),
+  [`d29b7cd`](https://github.com/unfoldadmin/django-unfold/commit/d29b7cda121279c5965fff653bd162e424874cc5))
+
+- Unicode slugify fieldsets tab attributes
+  ([#1880](https://github.com/unfoldadmin/django-unfold/pull/1880),
+  [`df1e1e8`](https://github.com/unfoldadmin/django-unfold/commit/df1e1e8d6a1d7f54889996c2744bc40c0dface91))
+
+- Update button classes for filter actions layout for long translations
+  ([#1894](https://github.com/unfoldadmin/django-unfold/pull/1894),
+  [`f4c648c`](https://github.com/unfoldadmin/django-unfold/commit/f4c648cce93b4f5e5da545c27b0ce1dd8b43273f))
+
+### Features
+
+- Fullwidth constance page ([#1895](https://github.com/unfoldadmin/django-unfold/pull/1895),
+  [`b30fb7e`](https://github.com/unfoldadmin/django-unfold/commit/b30fb7ef8b6340d036689fb5698006dd0e0a77b6))
+
+- Tailwind 4.2 ([#1881](https://github.com/unfoldadmin/django-unfold/pull/1881),
+  [`c4de32a`](https://github.com/unfoldadmin/django-unfold/commit/c4de32aeeb29bfe1efea27c7967545123c873ebb))
+
+
 ## v0.80.2 (2026-02-18)
 
 ### Bug Fixes
